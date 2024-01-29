@@ -30,6 +30,7 @@
 
 .some-icon {
     transition: opacity .2s ease;
+    margin: .25rem;
 }
 
 .some-icon:hover {
