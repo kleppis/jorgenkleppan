@@ -14,7 +14,7 @@
 
 .arrow {
     opacity: 0;
-    animation: popup 1s 2s forwards, bounce 2s 3.4s 3;
+    animation: popup .4s 1s forwards, bounce 1.5s 2s 3;
     transition: background-color .3s ease;
 }
 
@@ -35,6 +35,20 @@
 
 .some-icon:hover {
     opacity: .5;
+}
+
+.prosjekt-border {
+    border-top: 3px black solid;
+    width: 0;
+    transition: .3s ease;
+}
+
+.prosjekt-hover:hover .prosjekt-border {
+    width: 100%;
+}
+
+.pointer:hover {
+    cursor: pointer;
 }
 
 @keyframes bounce {
